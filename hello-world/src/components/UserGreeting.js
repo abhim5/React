@@ -26,7 +26,7 @@ class UserGreeting extends Component {
     //          "Second Approach"
     // return (
         
-    //     ! this.state.isLoggedIn ? <div>Welcome Abhi</div> : <div>Welcome Nikki</div>
+    //     ! this.state.isLoggedIn ? <div>Welcome Abhi</div> : <div>Welcome Driller</div>
     // )
 
 
