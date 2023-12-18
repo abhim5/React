@@ -32,7 +32,7 @@ class UserGreeting extends Component {
 
     //          "Third Approach"
 
-        return this.state.isLoggedIn && <div>Welcome Driller!</div>
+        return this.state.isLoggedIn && <div>Welcome Abhi!</div>
 
 
   }
