@@ -1,5 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
+import PureComp from './components/PureComp';
+// import Table from './components/Table';
+import ParentComp from './ParentComp';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
@@ -9,12 +12,14 @@ import './App.css';
 // import Counter from './components/Counter';
 // import Binding from './components/Binding';
 // import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting';
+// import UserGreeting from './components/UserGreeting';
+
 function App() {
   return (
     <div className="App">
-
-      <UserGreeting />
+      <ParentComp />
+      {/* <Table /> */}
+      {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <Binding /> */}
       {/* <FunctionClick />
