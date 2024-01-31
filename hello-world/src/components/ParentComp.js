@@ -12,13 +12,13 @@ class ParentComp extends PureComponent {
       }
     }
 
-    componentDidMount() {
-        setInterval(() => {
-            this.setState({
-                name: 'Abhishek'
-            })
-        }, 2000)
-    }
+    // componentDidMount() {
+    //     setInterval(() => {
+    //         this.setState({
+    //             name: 'Abhishek'
+    //         })
+    //     }, 2000)
+    // }
     
   render() {
       console.log('******************** Parent Comp ********************')

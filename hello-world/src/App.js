@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import PureComp from './components/PureComp';
+// import PureComp from './components/PureComp';
 // import Table from './components/Table';
-import ParentComp from './ParentComp';
+// import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
@@ -17,7 +18,8 @@ import ParentComp from './ParentComp';
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <RefsDemo />
+      {/* <ParentComp /> */}
       {/* <Table /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
@@ -26,8 +28,8 @@ function App() {
       <ClassClick /> */}
       {/* <Counter /> */}
       {/* <Message /> */}
-      {/* <Greet />
-      <Welcome /> */}
+      {/* <Greet /> */}
+      {/* <Welcome /> */}
 
       {/* <Hello name="Abhi"/>
       <Hello name="Nikki"/>
