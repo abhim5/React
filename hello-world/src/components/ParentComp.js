@@ -1,6 +1,6 @@
 import React, { Component, PureComponent } from 'react'
-import MemoComp from './components/MemoComp'
-import PureComp from './components/PureComp'
+import MemoComp from './MemoComp'
+import PureComp from './PureComp'
 import RegularComp from './RegularComp'
 
 class ParentComp extends PureComponent {
