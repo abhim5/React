@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
+import PortalDemo from './components/PortalDemo';
 // import PureComp from './components/PureComp';
 // import Table from './components/Table';
 // import ParentComp from './components/ParentComp';
-import RefsDemo from './components/RefsDemo';
+// import RefsDemo from './components/RefsDemo';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
@@ -18,7 +19,8 @@ import RefsDemo from './components/RefsDemo';
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <PortalDemo />
+      {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <Table /> */}
       {/* <UserGreeting /> */}
