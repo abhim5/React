@@ -8,7 +8,7 @@ import React, { Component } from 'react'
 
 // Provide a way to gracefully handle error in application code.
 
-export class ErrorBoundry extends Component {
+class ErrorBoundry extends Component {
 
     constructor(props) {
       super(props)
