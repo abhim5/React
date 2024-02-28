@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundry from './ErrorBoundry';
+// import PortalDemo from './components/PortalDemo';
 // import PureComp from './components/PureComp';
 // import Table from './components/Table';
 // import ParentComp from './components/ParentComp';
@@ -19,7 +21,16 @@ import PortalDemo from './components/PortalDemo';
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+      <ErrorBoundry>
+        <Hero heroName = "Super Man" />
+      </ErrorBoundry>
+      <ErrorBoundry>
+        <Hero heroName = "BatMan" />
+      </ErrorBoundry>
+      <ErrorBoundry>
+        <Hero heroName = "Joker" />
+      </ErrorBoundry>
+      {/* <PortalDemo /> */}
       {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <Table /> */}
