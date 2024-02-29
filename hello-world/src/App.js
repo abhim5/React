@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 // import Hero from './components/Hero';
 // import ErrorBoundry from './components/ErrorBoundry';
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <ClickCounter />
+      <HoverCounter />
       {/* <ErrorBoundry>
         <Hero heroName = "Super Man" />
       </ErrorBoundry>
